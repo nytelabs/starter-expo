@@ -1,0 +1,38 @@
+name: Validations
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
+jobs:
+  validations:
+    name: Validations
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Install Dependencies
+      - name: Install Dependencies
+        run: yarn install --frozen-lockfile
+
+      # Run Lint
+      - name: Run Lint
+        run: yarn run lint
+
+      # Run Type Check
+      - name: Run Type Check
+        run: yarn run tsc
+
+      # Upload Coverage Artifact
+      - name: Upload Coverage Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage
+          path: coverage

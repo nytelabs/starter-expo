@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "prepare": "husky",
-    "start:dev": "env-cmd -f .env.development expo start",
-    "start:prod": "env-cmd -f .env.production expo start",
+    "start:dev": "NODE_ENV=development expo start",
+    "start:prod": "NODE_ENV=production expo start",
     "lint": "eslint . --ext ts,tsx",
     "tsc": "tsc"
   },

@@ -1,7 +1,7 @@
 {
   "name": "starter",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "src/app.tsx",
   "private": true,
   "scripts": {
     "prepare": "husky",
@@ -13,6 +13,7 @@
   "dependencies": {
     "expo": "~52.0.35",
     "expo-status-bar": "~2.0.1",
+    "nativewind": "^2.0.11",
     "react": "18.3.1",
     "react-native": "0.76.7"
   },
@@ -26,6 +27,7 @@
     "eslint-plugin-prettier": "^5.2.3",
     "husky": "^9.1.7",
     "prettier": "^3.5.1",
+    "tailwindcss": "3.3.2",
     "typescript": "^5.3.3"
   }
 }

@@ -7,5 +7,5 @@ type AppSplashProps = {};
 
 // Component
 export const AppSplash: React.FC<AppSplashProps> = (): React.ReactNode => {
-  return <View />;
+  return <View className="" />;
 };

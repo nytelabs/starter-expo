@@ -14,7 +14,7 @@
       "",
       "// Component",
       "export const ${1:ComponentName}: React.FC<${1:ComponentName}Props> = (): React.ReactNode => {",
-      "  return <View $0/>;",
+      "  return <View className=\"$0\" />;",
       "};",
       "",
     ],

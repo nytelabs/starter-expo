@@ -98,12 +98,7 @@ module.exports = {
     "handle-callback-err": "warn",
 
     // Stylistic
-    camelcase: [
-      "error",
-      {
-        properties: "always",
-      },
-    ],
+    camelcase: "off",
     "linebreak-style": ["error", "unix"],
     "max-depth": ["error", 3],
     "max-params": ["error", 3],

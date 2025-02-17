@@ -864,6 +864,11 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.57.1.tgz#de633db3ec2ef6a3c89e2f19038063e8a122e2c2"
   integrity sha512-d9zaMRSTIKDLhctzH12MtXvJKSSUhaHcjV+2Z+GK+EEY7XKpP5yR4x+N3TAcHTcu963nIr+TMcCb4DBCYX1z6Q==
 
+"@expo-google-fonts/figtree@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/figtree/-/figtree-0.2.3.tgz#0907510d4918935f5b1dbec929a04278a8bf284f"
+  integrity sha512-QUj2F553gAt/n2FA569Ga2Au8p5lcfblaoKCbGU73rK3xsevvHbZUIFDADQteqZaDkP554ykXeDTySmc1Qy6sw==
+
 "@expo/bunyan@^4.0.0":
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/@expo/bunyan/-/bunyan-4.0.1.tgz#ab9e17e36c71c704a0ce72168378a487368da736"
@@ -3453,6 +3458,13 @@ expo-modules-core@2.2.2:
   integrity sha512-SgjK86UD89gKAscRK3bdpn6Ojfs/KU4GujtuFx1wm4JaBjmXH4aakWkItkPlAV2pjIiHJHWQbENL9xjbw/Qr/g==
   dependencies:
     invariant "^2.2.4"
+
+expo-splash-screen@~0.29.22:
+  version "0.29.22"
+  resolved "https://registry.yarnpkg.com/expo-splash-screen/-/expo-splash-screen-0.29.22.tgz#fd75a19cbc2989e154c0293d8e782d3de03c3296"
+  integrity sha512-f+bPpF06bqiuW1Fbrd3nxeaSsmTVTBEKEYe3epYt4IE6y4Ulli3qEUamMLlRQiDGuIXPU6zQlscpy2mdBUI5cA==
+  dependencies:
+    "@expo/prebuild-config" "^8.0.27"
 
 expo-status-bar@~2.0.1:
   version "2.0.1"

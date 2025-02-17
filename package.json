@@ -11,7 +11,9 @@
     "tsc": "tsc"
   },
   "dependencies": {
+    "@expo-google-fonts/figtree": "^0.2.3",
     "expo": "~52.0.35",
+    "expo-splash-screen": "~0.29.22",
     "expo-status-bar": "~2.0.1",
     "nativewind": "^2.0.11",
     "react": "18.3.1",

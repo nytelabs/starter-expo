@@ -7,7 +7,9 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "lint": "eslint . --ext ts,tsx"
+    "lint": "eslint . --ext ts,tsx",
+    "prepare": "husky",
+    "tsc": "tsc"
   },
   "dependencies": {
     "expo": "~52.0.35",
@@ -22,6 +24,7 @@
     "eslint-config-expo": "~8.0.1",
     "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-prettier": "^5.2.3",
+    "husky": "^9.1.7",
     "prettier": "^3.5.1",
     "typescript": "^5.3.3"
   },

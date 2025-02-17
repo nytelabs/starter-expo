@@ -1,0 +1,2 @@
+CI=true yarn run tsc
+CI=true yarn run lint

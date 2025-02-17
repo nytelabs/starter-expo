@@ -2,13 +2,12 @@
   "name": "starter",
   "version": "1.0.0",
   "main": "index.ts",
+  "private": true,
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
-    "lint": "eslint . --ext ts,tsx",
     "prepare": "husky",
+    "start:dev": "env-cmd -f .env.development expo start",
+    "start:prod": "env-cmd -f .env.production expo start",
+    "lint": "eslint . --ext ts,tsx",
     "tsc": "tsc"
   },
   "dependencies": {
@@ -20,6 +19,7 @@
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@types/react": "~18.3.12",
+    "env-cmd": "^10.1.0",
     "eslint": "^8.57.0",
     "eslint-config-expo": "~8.0.1",
     "eslint-config-prettier": "^10.0.1",
@@ -27,6 +27,5 @@
     "husky": "^9.1.7",
     "prettier": "^3.5.1",
     "typescript": "^5.3.3"
-  },
-  "private": true
+  }
 }
